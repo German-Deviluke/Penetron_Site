@@ -1,0 +1,136 @@
+/* Подключаем шрифт */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap');
+
+/* Общие стили */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    background-image:url(/images/background/parkovka.jpg) no-repeat center center fixed;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Навигация */
+.navbar {
+    background: #005f73;
+    padding: 15px;
+    text-align: center;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Изображение материала */
+.material-img {
+    display: block;
+    max-width: 300px;
+    margin: 20px auto;
+}
+
+/* Таблица */
+.table-container {
+    overflow-x: auto;
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background: white;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 10px;
+}
+
+th {
+    background: #005f73;
+    color: white;
+}
+
+/* Списки */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background: url('checkmark.png') no-repeat left center;
+    padding-left: 30px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+/* Кнопка */
+button {
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+    padding: 12px;
+    background: #ee6c4d;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #bb3e03;
+}
+.materials-list {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 30px;
+}
+
+.materials-list li {
+  margin: 10px 0;
+}
+
+.materials-list a {
+  color: #0056b3;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.materials-list a:hover {
+  text-decoration: underline;
+}
+/* Подвал */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background: #005f73;
+    color: white;
+    margin-top: 20px;
+}
