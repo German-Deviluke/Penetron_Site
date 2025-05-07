@@ -33,7 +33,7 @@ body {
 }
 
 .promo {
-    height: 880px;
+    height: 100vh;
     /* background: url('/images/background/lake.jpg') center center/cover no-repeat; */
     padding: 39px 0 62px 0;
     position: relative;
