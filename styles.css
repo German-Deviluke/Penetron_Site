@@ -38,6 +38,7 @@ body {
     padding: 39px 0 62px 0;
     position: relative;
     display: flex;
+    justify-content: center;
     margin: 0;
     min-width: 800px;
 }
@@ -60,12 +61,12 @@ body {
     z-index: 1;
 }
 .logo .logo_img {
-    display: block;
-    margin-right: 100%;
     position: relative;
     z-index: 2;
 }
-
+.logo {
+    grid-column: 2 / 3;
+}
 h1 {
         text-align:center; 
         margin-bottom: 20px; 
@@ -127,6 +128,8 @@ h1 {
 
  /* Стили для навигации */
  .navbar {
+    display:flex;
+    justify-content: center;
     background: #007bff;
     padding: 10px 0;
     text-align: center;
