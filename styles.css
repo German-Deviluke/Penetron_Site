@@ -17,7 +17,7 @@ body {
     /* padding: 20px; */
     /* background-color:gray; */
     /* background: linear-gradient(to bottom, #ffaf03, #30398b); */
-    background: url('/images/background/parkovka.jpg')no-repeat center center fixed;
+    background: url('../images/background/parkovka.jpg')no-repeat center center fixed;
     background-size: cover;
     margin: 0;
     padding: 0;
