@@ -229,6 +229,24 @@ tr:hover {
     transition: 0.3s;
 }
  
+.btn-more-materials {
+    display:flex; 
+    justify-content:center; 
+    align-items:center; 
+    margin-top: 10px;
+    padding: 10px 15px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  .btn-more-materials:hover {
+    background-color: #0056b3;
+  }
+  
 /* Подвал */
 .footer {
     text-align: center;
