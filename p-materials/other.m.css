@@ -226,6 +226,24 @@ tr:hover {
     transition: 0.3s;
 }
  
+.btn-back {
+    margin: 0 auto;
+    inline-size: 200px;
+    margin-block-start: 10px;
+    margin-block-end: 10px;
+    padding: 10px 15px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  .btn-back:hover {
+    background-color: #0056b3;
+  }
+
 /* Подвал */
 .footer {
     text-align: center;
