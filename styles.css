@@ -221,13 +221,14 @@ tr:hover {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    transition: 0.3s;
+    transition: transform 0.3s ease;
   }
-
-  .btn-more-materials:hover {
+ 
+.btn-more-materials:hover {
     background-color: #0056b3;
-  }
-  
+    
+}
+
 /* Подвал */
 .footer {
     text-align: center;
