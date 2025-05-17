@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function () {
+
   const slogans = [
     "Не ссы пронесет,<br>Защита бетона целый год.",
     "Природная мощь. Технологичная защита.",
@@ -23,4 +23,3 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
   setInterval(updateSlogan, 5000);
-});
