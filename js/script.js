@@ -1,21 +1,28 @@
-document.addEventListener('DOMContentLoaded', function () {
-let germanPidor = document.getElementById('button');
+const slogans = [
+  "Не ссы пронесет,<br>  Защита бетона целый год.",
+  "Природная мощь. Технологичная защита.",
+  "Там, где стихия — там Пенетрон.",
+  "Сила гор. Защита от воды. Надёжность навсегда.",
+  "Пенетрон. Стойкость, проверенная природой."
+];
 
-germanPidor.addEventListener('click', function(event) {
-  let question = prompt('Герман, ты Пидор?');
-  console.log('Ответ:', question);
-  question = question ? question.trim().toLowerCase() : "";
-  if (question === "да") {
-    alert('Я и не сомневался');
-    return
-  }
-  if (question === "нет" || question === "не") {
-    alert('Ответ неверный, попробуй еще раз');
-    return
-  }
-  else {
-    alert('Скажи да или нет')
-    return
-  }
-})
-})
+let index = 0;
+const sloganElement = document.getElementById("slogan");
+
+function updateSlogan() {
+  // Сначала скрываем слоган
+  sloganElement.classList.remove("fade-in");
+  sloganElement.style.opacity = 0;
+
+  // Подождать, чтобы сбросить анимацию
+  setTimeout(() => {
+    index = (index + 1) % slogans.length;
+    sloganElement.textContent = slogans[index];
+
+    // Перезапустить анимацию
+    sloganElement.classList.add("fade-in");
+  }, 300);
+}
+
+// Запускать смену слогана каждые 5 секунд
+setInterval(updateSlogan, 5000);
