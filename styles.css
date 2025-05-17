@@ -241,7 +241,16 @@ tr:hover {
   /* background-color: rgba(0, 0, 0, 0.4); полупрозрачный фон */
   border-radius: 20px;
 }
-
+.overlay {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.4); /* полупрозрачный фон */
+    border-radius: 20px; 
+}
 .slogan-overlay h1 {
   font-family: Sans serif;
   font-size: 3rem;
@@ -289,6 +298,7 @@ tr:hover {
         margin: 5px 0;
     }
 }
+<<<<<<< HEAD
 /* Подвал */
 .footer {
     text-align: center;
@@ -296,3 +306,22 @@ tr:hover {
     background: #333;
     color: white;
 }
+=======
+.pages {
+    margin-block-start: 60px;
+    align-items: start;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.src {
+    border-radius: 40px;
+    box-shadow: 10px 5px 5px black;
+}
+.error {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    font-size: 30px;
+}
+>>>>>>> 3f7483c2228e191f281d8f74444980ab27b5d45a
