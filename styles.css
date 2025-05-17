@@ -254,8 +254,9 @@ tr:hover {
 }
 
 .fade-in {
-  animation: fadeInText 1.2s ease-in forwards;
-}
+    transition: opacity 0.5s ease-in-out;
+    opacity: 1;
+  }
 
 @keyframes fadeInText {
   from {
