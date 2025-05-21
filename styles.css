@@ -26,12 +26,58 @@ body {
 .p {
     padding-top: 100px   
 }
-
-.conteiner {
-    width: 1140px;
-    margin: 0 auto;
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
+.header-phone {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    font-weight: bold;
+    font-size: 22px;
+    color: #FFFFFF;
+}
+.header-phone a img {
+    margin-top: 5px;
+    width: 24px;
+    height: auto;
+}
+.phone-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    color: white;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.phone-link:hover {
+    transform: scale(1.05);
+    opacity: 0.85;
+}
+
+.whats-icon {
+    width: 24px;
+    height: auto;
+    transition: transform 0.2s ease;
+}
+
+.phone-link:hover .whats-icon {
+    transform: scale(1.2);
+}
+.conteiner {
+    max-width: 1220px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.img {
+    max-width: 100%;
+    height: auto;
+}
 .promo {
     height: 100vh;
     padding: 39px 0 62px 0;
@@ -62,9 +108,11 @@ body {
 .logo .logo_img {
     position: relative;
     z-index: 2;
+    
 }
 .logo {
     grid-column: 2 / 3;
+    margin-left: -900px; 
 }
 h1 {
         text-align:center; 
@@ -132,13 +180,19 @@ h1 {
 
  /* Стили для навигации */
  .navbar {
-    display:flex;
-    justify-content: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 45px;
     background: none;
-    padding: 10px 0;
-    text-align: center;
 }
 
+.nav-center {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+    
 .navbar ul {
     list-style: none;
     padding: 0;
@@ -248,7 +302,7 @@ tr:hover {
     color: white;
     text-align: center;
     padding: 20px;
-    background-color: rgba(0, 0, 0, 0.4); /* полупрозрачный фон */
+    /* background-color: rgba(0, 0, 0, 0.4); полупрозрачный фон */
     border-radius: 20px; 
 }
 .slogan-overlay h1 {

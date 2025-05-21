@@ -8,7 +8,7 @@ body {
     padding: 0;
     background-color: #f4f4f4;
     color: #333;
-    background-image:url(/images/background/parkovka.jpg) no-repeat center center fixed;
+    /* background-image:url(/images/background/parkovka.jpg) no-repeat center center fixed; */
 }
 
 .container {
