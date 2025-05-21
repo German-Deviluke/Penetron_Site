@@ -180,6 +180,7 @@ h1 {
 
  /* Стили для навигации */
  .navbar {
+    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
