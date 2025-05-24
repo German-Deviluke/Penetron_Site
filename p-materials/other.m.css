@@ -13,11 +13,18 @@
 }
 
 body {
-    background-color:rgb(94, 139, 197);
+    background-color:#eee;
     margin: 0;
     padding: 0;
 }
-
+.materials-title {
+  font-size: 3.5rem;
+  font-weight: 900;
+  color: #0a0900;
+  margin-bottom: 50px;
+  /* text-shadow: 2px 2px 12px rgba(0,0,0,0.8); */
+  animation: fadeInText 1.2s ease-in forwards;
+}
 .p {
     padding-top: 100px   
 }

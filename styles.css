@@ -11,7 +11,6 @@
     box-sizing: border-box;
     font-family: Arial, sans-serif;
 }
-
 body {
     background-color:rgb(94, 139, 197);
     margin: 0;
@@ -74,7 +73,7 @@ body {
     height: auto;
 }
 .promo {
-    height: 100vh;
+    height: 104vh;
     padding: 39px 0 62px 0;
     position: relative;
     display: flex;
@@ -316,7 +315,7 @@ tr:hover {
     text-align: center;
     padding: 20px;
     /* background-color: rgba(0, 0, 0, 0.4); полупрозрачный фон */
-    border-radius: 20px; 
+    /* border-radius: 20px;  */
 }
 .slogan-overlay h1 {
   font-family: Sans serif;
@@ -393,8 +392,9 @@ tr:hover {
     font-size: 30px;
 }
 
-.about-company {
+#about-company {
   background: url('./images/background/sneg-nebo-1920x1080.jpg') center/cover no-repeat;
+  height: 107vh;
   position: relative;
   padding: 120px 40px; /* больше отступов сверху/снизу и по бокам */
   color: #fff;
@@ -402,14 +402,16 @@ tr:hover {
   min-height: 500px; /* чтобы секция была достаточно высокой */
 }
 
-.about-company::before {
+#about-company::before {
   content: "";
   position: absolute;
   inset: 0;
   background: linear-gradient(to top, rgba(0,0,0,0.75) 20%, rgba(0,0,0,0.5) 60%, rgba(0,0,0,0.3) 100%);
   z-index: 0;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 .about-overlay {
   position: relative;
   z-index: 1;
