@@ -16,7 +16,11 @@ body {
     margin: 0;
     padding: 0;
 }
-
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 .p {
     padding-top: 100px   
 }
@@ -99,6 +103,13 @@ body {
     /* background: rgba(0, 0, 0, 0.0); */
     z-index: 1;
     
+}
+.logo-conteiner {
+    background-color: rgba(red, green, blue, alpha)
+}
+.logo-header {
+    width: 140px;
+    height: auto;
 }
 .logo .logo_img {
     position: relative;
